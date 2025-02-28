@@ -3,7 +3,7 @@ const cors = require("cors");
 
 const app = express();
 app.use(cors({
-    origin:["http://localhost:5173","https://abhishekballi13.github.io/personal-portfolio"],
+    origin:["http://localhost:5173","https://abhishekballi13.github.io"],
     credentials:true,
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     allowedHeaders: ["Content-Type","Authorization", "X-CSRF-Token", "X-Requested-With", "Accept", "Accept-Version", "Content-Length", "Content-MD5","Date", "X-Api-Version"],
